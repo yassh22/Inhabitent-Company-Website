@@ -1,0 +1,110 @@
+.blog .content-area, .archive .site-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Merriweather normal';
+  
+    article {
+      width: 750px;
+    }
+  
+    .site-main {
+      width: 890px;
+      padding-left: 80px;
+      padding-right: 20px;
+      padding-top: 30px;
+      padding-bottom: 100px;
+      .page-title {
+        text-align: left;
+        font-weight: bold;
+        border-bottom: 1px solid #a1a1a1;
+        margin-right: 40px;
+        margin-bottom: 0;
+      }
+    }
+
+    h2 {
+      font-family: 'Novecento Sans normal';
+      color: #2f1339;
+      font-size: 2em;
+      font-weight: bold;
+      }
+  
+    a {
+      color: #248A83;
+      text-decoration: none;
+      &:hover {
+        color: #2f1339;
+      }
+    }
+  
+    a.journal-button {
+      color: black;
+      padding: 10px 20px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+      font-family: 'Novecento Sans normal';
+      text-transform: uppercase;
+    
+      &:hover {
+        background-color: #248A83;
+        border-color: #248A83;
+        color: white;
+      } 
+    }
+  
+  
+    .entry-header {
+      width: 750px;
+      position: relative;
+      margin-top: 80px;
+  
+      .entry-title {
+        position: absolute;
+      }
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather normal';
+  }
+  
+  .entry-header {
+    width: 750px;
+    position: relative;
+    color: white;
+  
+    img {
+      width: 100%;
+    }
+  
+    .entry-title {
+      position: absolute;
+      top: 0px;
+      background-color: #248A83;
+      padding: 10px 20px;
+      max-width: 550px;
+      font-size: 2.5em;
+      line-height: 1;
+  
+      a {
+        color: white;
+  
+        &:hover {
+          color: #f0e4d1;
+        }
+      }
+    }
+  
+    .entry-meta {
+      position: absolute;
+      bottom: 8px;
+      right: 0px;
+      background-color: #248A83;
+      padding: 3px 10px;
+      text-transform: uppercase;
+      font-family: 'Novecento Sans normal';
+    }
+  }
+}

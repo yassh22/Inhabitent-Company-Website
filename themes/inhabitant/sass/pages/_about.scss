@@ -1,0 +1,24 @@
+.backImage {
+    background:linear-gradient(
+		rgba(0,0,0,0.70) 0%,
+		rgba(0,0,0,0.70) 100%
+	);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/about-hero.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Novecento Sans bold normal';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutPara {
+    padding: 7.5px 307px;
+    line-height: 22.5px;
+}

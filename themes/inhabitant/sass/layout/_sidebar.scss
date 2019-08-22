@@ -1,0 +1,32 @@
+.widget-area {
+    border-left: 1px solid black;
+    padding-left: 60px;
+    padding-top: 90px;
+    font-family: 'Merriweather normal';    
+    h2.widget-title {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #2f1339;
+      font-family: 'Novecento Sans normal';
+      font-weight: bold;
+    }
+    .widget p .day-of-week {
+      font-weight: bold;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Merriweather normal';
+    } 
+  
+    a {
+      color: #248A83;
+      text-decoration: none;
+      &:hover {
+        color: #2f1339;
+      } 
+    }
+  }
